@@ -1,0 +1,15 @@
+# Project place file
+/TestingPlace.rbxlx
+
+# Roblox Studio lock files
+/*.rbxlx.lock
+/*.rbxl.lock
+
+<<<<<<< HEAD
+=======
+# Wally shared and server packages
+>>>>>>> 45bc3ea38eb5f0f994e1aaab53a6a89d898e2e13
+/Packages/*
+/ServerPackages/*
+src/ServerStorage/*
+src/StarterCharacterScripts/*
