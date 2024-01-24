@@ -16,9 +16,10 @@ return {
             type = "number"
         }
     },
-    execute = function(player, flags: {[string]: boolean}, target: Player, amount: number)
-        local str_flag = tostring(flags.t)
-        print("Flag t exists: " .. str_flag)
+    execute = function(player, flags: { [string]: boolean }, target: Player, amount: number)
+        print(`Flag t exists: {flags.t}`)
+        print(`Target name: {target.Name}`)
+        print(`Amount: {amount}`)
         return
     end
 }
